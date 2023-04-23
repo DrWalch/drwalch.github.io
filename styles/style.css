@@ -1,0 +1,124 @@
+@font-face { font-family: 'Playfair Display'; src: url('PlayfairDisplay-Medium.ttf'); }
+
+body {
+	background-color: #ffffff;
+	
+	
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: 'Playfair Display';
+}
+
+hr {
+	width: 15%;
+  }
+
+
+  h1{
+	text-align: middle;
+	margin-bottom: 0;
+	/*margin: 1em auto;*/
+	padding: 1em;
+	display: block;
+
+  }
+
+  h2{
+	word-wrap: break-word;
+	text-align: middle;
+	margin-top: 0;
+	margin-bottom: 4%;
+	/*margin: 1em auto;*/
+	font-weight: lighter;
+	padding: 0.00001%;
+	display: block;
+
+  }
+
+  h3{
+	max-width: 70%;
+	line-height: 150%;
+	word-wrap: break-word;
+	font-weight: lighter;
+	text-align: middle;
+	margin-top: 0.00001%;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin: 1em auto;*/
+	padding: 1em;
+	display: block;
+
+  }
+  h4{
+	max-width: 60%;
+	word-wrap: break-word;
+	font-weight: lighter;
+	text-align: middle;
+	margin: 1em auto;
+	padding-left: 0%;
+	display: inline-block;
+
+  }
+
+  .espacement {
+	line-height: 150%;
+	margin-bottom: 0.0001%;
+	text-align: middle;
+	/*margin: 1em auto;*/
+	padding: 1em;
+	display: block;
+  }
+
+
+  .first {
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 0.0001%;
+	text-align: middle;
+	/*margin: 1em auto;*/
+	padding: 1em;
+	display: block;
+  }
+
+
+
+/*  .header {
+	text-align: left;
+	margin: 1em auto;
+	padding: 1em;
+	display: block;
+}*/
+
+
+
+.headimage {
+	max-width: 15vw;
+}
+span.hidden {
+	display: none;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center; /*modified with center content*/
+    justify-content: center;
+}
+.flex-item {
+	padding: 0.5em;
+	flex: 30%;
+	width: 30vw;
+	border-radius: 5%;
+	text-align: center;
+}
+@media (orientation: portrait) {
+	body {
+		font-size: 3vw;
+	}
+	.headimage {
+		max-width: 30vw;
+	}
+	.flex-item {
+		flex: 100%;
+		margin: 1em 10%;
+	}
+}
